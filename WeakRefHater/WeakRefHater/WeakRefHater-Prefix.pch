@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'WeakRefHater' target in the 'WeakRefHater' project
+//
+
+#ifdef __OBJC__
+	#import <Cocoa/Cocoa.h>
+#endif

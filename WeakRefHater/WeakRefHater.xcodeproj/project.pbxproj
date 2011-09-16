@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88CE04F91423FBB4001F1AC3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88CE04F81423FBB4001F1AC3 /* Cocoa.framework */; };
+		88CE05031423FBB4001F1AC3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 88CE05011423FBB4001F1AC3 /* InfoPlist.strings */; };
+		88CE05051423FBB4001F1AC3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88CE05041423FBB4001F1AC3 /* main.m */; };
+		88CE05091423FBB4001F1AC3 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 88CE05071423FBB4001F1AC3 /* Credits.rtf */; };
+		88CE050C1423FBB4001F1AC3 /* MAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88CE050B1423FBB4001F1AC3 /* MAAppDelegate.m */; };
+		88CE050F1423FBB4001F1AC3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88CE050D1423FBB4001F1AC3 /* MainMenu.xib */; };
+		88CE05171423FBBD001F1AC3 /* JAWeakReferenceHaterProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 88CE05161423FBBD001F1AC3 /* JAWeakReferenceHaterProxy.m */; };
+		88CE051A1423FC12001F1AC3 /* JAWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88CE05191423FC12001F1AC3 /* JAWindowController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		88CE04F41423FBB4001F1AC3 /* WeakRefHater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeakRefHater.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88CE04F81423FBB4001F1AC3 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		88CE04FB1423FBB4001F1AC3 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		88CE04FC1423FBB4001F1AC3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		88CE04FD1423FBB4001F1AC3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		88CE05001423FBB4001F1AC3 /* WeakRefHater-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WeakRefHater-Info.plist"; sourceTree = "<group>"; };
+		88CE05021423FBB4001F1AC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		88CE05041423FBB4001F1AC3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		88CE05061423FBB4001F1AC3 /* WeakRefHater-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WeakRefHater-Prefix.pch"; sourceTree = "<group>"; };
+		88CE05081423FBB4001F1AC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		88CE050A1423FBB4001F1AC3 /* MAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAAppDelegate.h; sourceTree = "<group>"; };
+		88CE050B1423FBB4001F1AC3 /* MAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAAppDelegate.m; sourceTree = "<group>"; };
+		88CE050E1423FBB4001F1AC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		88CE05151423FBBD001F1AC3 /* JAWeakReferenceHaterProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JAWeakReferenceHaterProxy.h; path = ../../JAWeakReferenceHaterProxy.h; sourceTree = "<group>"; };
+		88CE05161423FBBD001F1AC3 /* JAWeakReferenceHaterProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JAWeakReferenceHaterProxy.m; path = ../../JAWeakReferenceHaterProxy.m; sourceTree = "<group>"; };
+		88CE05181423FC12001F1AC3 /* JAWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JAWindowController.h; path = ../../JAWindowController.h; sourceTree = "<group>"; };
+		88CE05191423FC12001F1AC3 /* JAWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JAWindowController.m; path = ../../JAWindowController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88CE04F11423FBB4001F1AC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88CE04F91423FBB4001F1AC3 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88CE04E91423FBB4001F1AC3 = {
+			isa = PBXGroup;
+			children = (
+				88CE04FE1423FBB4001F1AC3 /* WeakRefHater */,
+				88CE04F71423FBB4001F1AC3 /* Frameworks */,
+				88CE04F51423FBB4001F1AC3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88CE04F51423FBB4001F1AC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88CE04F41423FBB4001F1AC3 /* WeakRefHater.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88CE04F71423FBB4001F1AC3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88CE04F81423FBB4001F1AC3 /* Cocoa.framework */,
+				88CE04FA1423FBB4001F1AC3 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		88CE04FA1423FBB4001F1AC3 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88CE04FB1423FBB4001F1AC3 /* AppKit.framework */,
+				88CE04FC1423FBB4001F1AC3 /* CoreData.framework */,
+				88CE04FD1423FBB4001F1AC3 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		88CE04FE1423FBB4001F1AC3 /* WeakRefHater */ = {
+			isa = PBXGroup;
+			children = (
+				88CE050A1423FBB4001F1AC3 /* MAAppDelegate.h */,
+				88CE050B1423FBB4001F1AC3 /* MAAppDelegate.m */,
+				88CE050D1423FBB4001F1AC3 /* MainMenu.xib */,
+				88CE04FF1423FBB4001F1AC3 /* Supporting Files */,
+				88CE05181423FC12001F1AC3 /* JAWindowController.h */,
+				88CE05191423FC12001F1AC3 /* JAWindowController.m */,
+			);
+			path = WeakRefHater;
+			sourceTree = "<group>";
+		};
+		88CE04FF1423FBB4001F1AC3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				88CE05151423FBBD001F1AC3 /* JAWeakReferenceHaterProxy.h */,
+				88CE05161423FBBD001F1AC3 /* JAWeakReferenceHaterProxy.m */,
+				88CE05001423FBB4001F1AC3 /* WeakRefHater-Info.plist */,
+				88CE05011423FBB4001F1AC3 /* InfoPlist.strings */,
+				88CE05041423FBB4001F1AC3 /* main.m */,
+				88CE05061423FBB4001F1AC3 /* WeakRefHater-Prefix.pch */,
+				88CE05071423FBB4001F1AC3 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88CE04F31423FBB4001F1AC3 /* WeakRefHater */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88CE05121423FBB4001F1AC3 /* Build configuration list for PBXNativeTarget "WeakRefHater" */;
+			buildPhases = (
+				88CE04F01423FBB4001F1AC3 /* Sources */,
+				88CE04F11423FBB4001F1AC3 /* Frameworks */,
+				88CE04F21423FBB4001F1AC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeakRefHater;
+			productName = WeakRefHater;
+			productReference = 88CE04F41423FBB4001F1AC3 /* WeakRefHater.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88CE04EB1423FBB4001F1AC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 88CE04EE1423FBB4001F1AC3 /* Build configuration list for PBXProject "WeakRefHater" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 88CE04E91423FBB4001F1AC3;
+			productRefGroup = 88CE04F51423FBB4001F1AC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88CE04F31423FBB4001F1AC3 /* WeakRefHater */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88CE04F21423FBB4001F1AC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88CE05031423FBB4001F1AC3 /* InfoPlist.strings in Resources */,
+				88CE05091423FBB4001F1AC3 /* Credits.rtf in Resources */,
+				88CE050F1423FBB4001F1AC3 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88CE04F01423FBB4001F1AC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88CE05051423FBB4001F1AC3 /* main.m in Sources */,
+				88CE050C1423FBB4001F1AC3 /* MAAppDelegate.m in Sources */,
+				88CE05171423FBBD001F1AC3 /* JAWeakReferenceHaterProxy.m in Sources */,
+				88CE051A1423FC12001F1AC3 /* JAWindowController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		88CE05011423FBB4001F1AC3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88CE05021423FBB4001F1AC3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		88CE05071423FBB4001F1AC3 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88CE05081423FBB4001F1AC3 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		88CE050D1423FBB4001F1AC3 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88CE050E1423FBB4001F1AC3 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88CE05101423FBB4001F1AC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		88CE05111423FBB4001F1AC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		88CE05131423FBB4001F1AC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WeakRefHater/WeakRefHater-Prefix.pch";
+				INFOPLIST_FILE = "WeakRefHater/WeakRefHater-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		88CE05141423FBB4001F1AC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WeakRefHater/WeakRefHater-Prefix.pch";
+				INFOPLIST_FILE = "WeakRefHater/WeakRefHater-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88CE04EE1423FBB4001F1AC3 /* Build configuration list for PBXProject "WeakRefHater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88CE05101423FBB4001F1AC3 /* Debug */,
+				88CE05111423FBB4001F1AC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88CE05121423FBB4001F1AC3 /* Build configuration list for PBXNativeTarget "WeakRefHater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88CE05131423FBB4001F1AC3 /* Debug */,
+				88CE05141423FBB4001F1AC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88CE04EB1423FBB4001F1AC3 /* Project object */;
+}
